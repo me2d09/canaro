@@ -51,7 +51,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 # from tensorflow.keras import backend
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Flatten, Dropout, Conv2D, MaxPooling2D
-from tensorflow.keras.optimizers import SGD
+from tensorflow.keras.optimizers.legacy import SGD
 
 # IMG_SIZE = (80,80)
 # LEARNING_RATE = 0.001
